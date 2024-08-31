@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e252318ea2.js" crossorigin="anonymous"></script>
+    <title>POTRFOLIO</title>
+
+</head>
+
+<body>
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul style="width: 100%;" id="sidemenu">
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li> <a href="#work">Portfolio</a></li>
+                    <li><a href="#contact">Contact </a></li>
+                    <i class="fa-solid fa-xmark" style="color: aliceblue;" id="menu" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" style="color: aliceblue;" id="menu" onclick="openmenu()"></i>
+            </nav>
+        </div>
+        <div class="header-text">
+            <p>FRONT-END DEVELOPER</p>
+            <h1>Hi,I Am
+                <span> SAM</span>
+                <br>JOE<br> </h1>
+        </div>
+
+
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+
+                <div class="about">
+                    <h1 class="subtitle">About Me</h1><br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolor recusandae vel, aut neque quos, iste eligendi expedita tenetur adipisci nemo? Possimus
+                        cumque distinctio est minima, ea aperiam expedita ratione?</p><br>
+                    <div class="contents" id="skills">
+                        <h4 style="margin-left: 15px; ">SKILLS
+                        </h4>
+                        <ul>
+                            <li> <span>Figma Design</span><br> Designing Web Pages</li>
+                            <li> <span>Web Development</span><br> Web App Development</li>
+
+                        </ul>
+                    </div>
+                    <h4 style="margin-left: 15px; ">EDUCATION
+                    </h4>
+                    <div class="contents" id="education">
+                        <ul>
+                            <li> <span>Bachelor's </span><br> XYZCollege</li>
+                            <li> <span>Higer Secondary Education</span><br> ABC College </li>
+                            <li> <span>Secondary School Certificate</span><br> PQR SCHOOL</li>
+
+                        </ul>
+
+                    </div>
+                    <div class="contents" id="experience">
+                        <h4 style="margin-left: 15px; ">EXPERIENCE
+                        </h4>
+                        <ul>
+                            <li> <span>Figma Design</span><br> Designing Web Pages</li>
+                            <li> <span>Web Development</span><br> Web Aap Development</li>
+
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="services">
+            <div class="container">
+
+                <h1 class="subtitle">My Services</h1>
+                <div class="service-list">
+                    <div>
+                        <h2 style="color:#D2CEB2;">Web Design</h2>
+
+                        <p>Designing the front end of the websites with new transitions , animations , new pallete colors with Resposive in it </p>
+                    </div>
+                    <div>
+                        <h2 style="color:#D2CEB2;">Figma Design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi saepe est, quisquam accusantium similique laborum unde? Est, aut possimus dictmaxime. Veritatis?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="work">
+            <div class="container ">
+                <h1 class="subtitle ">My Work</h1>
+                <div class="worklist ">
+                    <div class="work ">
+                        <img src="File sharing.png ">
+                        <div class="layer ">
+                            <h3>Online File Sharing Website</h3>
+                            <p>This website helps you share files</p>
+                        </div>
+                    </div>
+                    <div class="work ">
+                        <img src="shoe store.png ">
+                        <div class="layer ">
+                            <h3>E-commerce Website</h3>
+                            <p>You can buy your favourite shoe</p>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+            </div> <a href="#header" class="btn ">See More</a>
+
+        </div>
+    </div>
+    </div>
+
+    <div id="contact" style="color: aliceblue; ">
+        <div class="container ">
+            <div class="rows ">
+                <div class="contact-left ">
+                    <h1 class="subtitle ">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope "></i>xyz@gmail.com</p>
+                    <p><i class="fa-solid fa-phone "></i>1593572580</p><br>
+                    <div class="social-icons ">
+                        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook "></i></a>
+                        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram "></i></a>
+                        <a href="https://x.com/?lang=en"><i class="fa-brands fa-x-twitter "></i></a>
+                        <a href="https://in.linkedin.com/"><i class="fa-brands fa-linkedin "></i></a>
+                    </div>
+                    <a href="cv.pdf" download class="btn ">Download CV</a>
+                </div><br>
+                <div class="contact-right ">
+                    <form>
+                        <input type="text " name="Name " placeholder="Your Name " required>
+                        <input type="text " name="E-mail " placeholder="Your Email " required>
+                        <textarea name="Message " placeholder="Your Message " required></textarea>
+                        <button submit class="btn ">SUMBIT</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+
+    <script>
+        var menu = document.getElementsByClassName("menu");
+
+        function openmenu() {
+            menu.style.right = "0"
+        }
+
+        function closemenu() {
+            menu.style.right = "-200px"
+        }
+    </script>
+
+</body>
+< /html>
